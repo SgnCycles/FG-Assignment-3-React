@@ -1,0 +1,27 @@
+.factSection {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.factWrapperDiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F9FAFC;
+  border-radius: 15px;
+  padding: 24px;
+  width: 100%;
+}
+
+.factWrapper {
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 20px 10px;
+}
+
+.factHeader {
+  width: 100%;
+}

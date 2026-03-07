@@ -1,0 +1,1 @@
+import styles from './appcard.module.css'

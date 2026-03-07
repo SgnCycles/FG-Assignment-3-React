@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 30px;
+  background-color: snow;
+  padding-bottom: 20px;
+  border: 1px solid rgb(239, 232, 232);
+}
+
+.footerSignature {
+  text-align: center;
+  font-size: 0.8rem;
+  background-color: snow;
+}

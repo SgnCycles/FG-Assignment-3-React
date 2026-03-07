@@ -1,0 +1,21 @@
+.footerContentWrapper {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+}
+
+.footerContent {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.footerHeader {
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.footerDescription {
+  font-size: 0.9rem;
+}
