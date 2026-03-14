@@ -1,0 +1,16 @@
+.appContainer {
+  padding: 0 30px 30px 30px;
+}
+
+.appContainerHeader {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.appCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
