@@ -1,7 +1,23 @@
 .pageDescription {
   width: 80%;
+  margin-top: 30px;
+}
+
+.pageDescriptionHeader {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.pageDescriptionHeader.pageDescriptionHeaderHome,
+.pageDescriptionSubtitle.pageDescriptionSubtitleHome {
+  text-align: center;
 }
 
 .pageDescriptionSubtitle {
   line-height: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.pageDescriptionHome {
+  width: 100%;
 }

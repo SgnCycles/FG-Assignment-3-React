@@ -1,23 +1,19 @@
 const navMenu = [
   {
     menuItem: "Home",
-    link: "/",
-    image: 'hero.jpg'
+    image: 'hero.jpg',
   },
   { 
     menuItem: "Clothes",
-    link: "/clothes",
-    image: 'secondhand.jpg'
+    image: 'secondhand.jpg',
   },
   { 
     menuItem: "Food",
-    link: "/food",
-    image: 'zerowaste.webp'
+    image: 'zerowaste.webp',
   },
   { 
     menuItem: "Electronics",
-    link: "/electronics",
-    image: 'tech.webp'
+    image: 'tech.webp',
   },
 ]
 

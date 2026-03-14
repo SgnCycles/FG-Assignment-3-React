@@ -1,9 +1,4 @@
 const heroContent = [
-  {
-    pageType: null,
-    heroHeader: "Give things a Second Life",
-    heroSubtitle: "Smart purchases that save money, reduce waste, and create a more sustainable world",
-  },
   { 
     pageType: "Clothes",
     heroHeader: "Second-Hand Clothing: Style Without the Waste",

@@ -1,0 +1,21 @@
+.tipsSection {
+  background-color: rgba(218, 232, 189, 0.2);
+  width: 80%;
+  padding: 20px;
+  border-radius: 15px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.tipsWrapper {
+  line-height: 2rem;
+}
+
+.tipsSectionHeader {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.tipsListItem {
+  font-size: 1rem;
+}

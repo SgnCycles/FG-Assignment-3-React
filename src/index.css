@@ -9,8 +9,10 @@ html {
 }
 
 body {
+  color: #373131;
   height: 100%;
   margin: 0;
+  background-color: #FFFFFF;
 }
 
 #root {
@@ -18,4 +20,5 @@ body {
   flex-direction: column;
   min-height: 100dvh;
   font-family: "Funnel Display", sans-serif;
+  color: #444939;
 }
