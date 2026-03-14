@@ -7,27 +7,28 @@
 }
 
 .heroHeader {
-  font-size: 3.5rem;
-  text-shadow: 3px 3px 3px white;
-  color: rgb(55, 49, 49);
+  font-size: 3.8rem;
+  text-shadow: 1px 1px 1px white;
+  /* color: rgb(55, 49, 49); */
   text-align: center;
 }
 
 .heroSubtitle {
   font-size: 1.6rem;
-  text-shadow: 3px 3px 3px white;
-  color: rgb(55, 49, 49);
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+  /* color: rgb(55, 49, 49); */
   width: 80%;
 }
 
 .heroHeader.clothes, .heroHeader.food, .heroHeader.electronics {
   color: rgb(245, 235, 235);
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 1px 1px 1px black;
   width: 80%;
   text-wrap: wrap;
 }
 
 .heroSubtitle.clothes, .heroSubtitle.food, .heroSubtitle.electronics {
   color: white;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 1px 1px 1px black;
 }

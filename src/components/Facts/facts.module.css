@@ -4,24 +4,32 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .factWrapperDiv {
   display: flex;
   justify-content: space-between;
-  background-color: #F9FAFC;
+  background-color: rgba(237, 150, 96, 0.1);
   border-radius: 15px;
   padding: 24px;
   width: 100%;
 }
 
 .factWrapper {
-  min-width: 180px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   padding: 0 0 20px 10px;
 }
 
 .factHeader {
+  font-size: 2rem;
   width: 100%;
+  margin-top: 0;
+}
+
+.factDescriptionHeader {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
 }
