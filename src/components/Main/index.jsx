@@ -4,6 +4,7 @@ import Hero from '../Hero'
 import PageDescription from '../PageDescription'
 import Facts from '../Facts'
 import Tips from '../Tips'
+import AppContainer from '../AppContainer';
 
 const Main = ({page}) => {
 
@@ -15,6 +16,7 @@ const pageObject = pageContent.find((item) => page === item.pageType);
       <Facts page={page} pageObject={pageObject}/>
       <PageDescription page={page} pageObject={pageObject}/>
       <Tips page={page} pageObject={pageObject}/>
+      <AppContainer page={page}/>
     </div>
   )
 }

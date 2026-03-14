@@ -1,0 +1,101 @@
+.appCard {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  position: relative;
+  isolation: isolate;
+  border-radius: 15px;
+  padding: 2rem;
+  height: 300px;
+}
+
+.appCard::before {
+  content: '';
+  position: absolute;
+  inset: -15px;
+  z-index: -2;
+  background-image: radial-gradient(#e2dfde 1px, transparent 0);
+  background-size: 5px 5px;
+  border-radius: 20px;
+}
+
+.appCard:hover::before {
+  background-image: radial-gradient(#403e3e 1px, transparent 0);
+}
+
+.appCard::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: #FDF5EF;
+  z-index: -1;
+  border-radius: inherit;
+}
+
+.appCardHeader {
+  display: flex;
+  z-index: 1;
+}
+
+.appCardHeader::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  width: 100%;
+  background-color: rgba(237, 150, 96, 0.4);
+  border-radius: 15px 15px 0 0;
+  z-index: 0;
+  padding-bottom: 10px;
+}
+
+.appCardTitle {
+  width: 100%;
+  margin: 0;
+  padding-left: 10px;
+  font-size: 1.4rem;
+}
+
+.appCardThumbnail {
+  margin: 10px 0 10px 0;
+    position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.appCardThumbnail img {
+  display: block;
+  border-radius: 50%;
+}
+
+.appCardIcon img {
+  z-index: 100;
+  position: relative;
+}
+
+.appCardHeader h3{
+  z-index: 10;
+  position: relative;
+  top: -5px;
+  letter-spacing: 2px;
+}
+
+.appCardSubtitle {
+  flex-grow: 1;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.appCardButton {
+  padding: 8px 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.appCardButton a {
+  text-decoration: none;
+  letter-spacing: 3px;
+}
