@@ -5,3 +5,7 @@
   align-items: center;
   flex-grow: 1;
 }
+
+.blur {
+  filter: blur(5px);
+}

@@ -17,7 +17,7 @@
 }
 
 .factWrapper {
-  width: 300px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   padding: 0 0 20px 10px;
@@ -32,4 +32,23 @@
 .factDescriptionHeader {
   font-size: 1.5rem;
   letter-spacing: 2px;
+}
+
+@media (min-width: 340px) and (max-width: 1024px) {
+  .factWrapperDiv {
+    flex-direction: column;
+  }
+
+  .factDescriptionHeader {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .factWrapper {
+    padding: 0;
+  }
+
+  .factWrapper:not(:first-child) {
+    margin-top: 20px;
+  }
 }

@@ -4,12 +4,12 @@ import Hero from '../Hero'
 import PageDescription from '../PageDescription'
 import NavigationCards from '../NavigationCards'
 
-const Home = ({page, updatePage}) => {
+const Home = ({page, updatePage, mobileMenu}) => {
 
 const homepageObject = homepageContent;
 
   return (
-    <div className={styles.main}>
+    <div className={`${styles.main} ${mobileMenu ? styles.blur : ''}`}>
       <Hero page={page}/>
       <PageDescription page={page} pageObject={homepageObject}/>
       <NavigationCards updatePage={updatePage}/>

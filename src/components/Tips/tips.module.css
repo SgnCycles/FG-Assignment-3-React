@@ -19,3 +19,16 @@
 .tipsListItem {
   font-size: 1rem;
 }
+
+@media (min-width: 340px) and (max-width: 1024px) {
+  .tipsSection {
+    margin-top: 10px;
+  }
+  .tipsList {
+    padding-left: 20px;
+  }
+
+  .tipsSectionHeader {
+    margin-bottom: 0;
+  }
+}

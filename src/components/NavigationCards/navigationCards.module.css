@@ -33,6 +33,20 @@
 
 .navigationCard:hover {
   border: none;
-  /* border: 1px solid rgba(150, 147, 147, 0.3); */
   box-shadow: 2px 2px 78px 0px rgba(150, 147, 147, 0.3);
+}
+
+@media (min-width: 340px) and (max-width: 1024px) {
+  .navigationCardSection {
+    margin-bottom: 0;
+  }
+  
+  .navigationCardWrapper {  
+    flex-direction: column;
+  }
+
+  .navigationCard {
+    margin-bottom: 20px;
+    height: 150px;
+  }
 }

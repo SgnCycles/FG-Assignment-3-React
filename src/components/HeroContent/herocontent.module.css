@@ -9,7 +9,6 @@
 .heroHeader {
   font-size: 3.8rem;
   text-shadow: 1px 1px 1px white;
-  /* color: rgb(55, 49, 49); */
   text-align: center;
 }
 
@@ -17,7 +16,6 @@
   font-size: 1.6rem;
   text-align: center;
   text-shadow: 1px 1px 1px white;
-  /* color: rgb(55, 49, 49); */
   width: 80%;
 }
 
@@ -31,4 +29,15 @@
 .heroSubtitle.clothes, .heroSubtitle.food, .heroSubtitle.electronics {
   color: white;
   text-shadow: 1px 1px 1px black;
+}
+
+@media (min-width: 340px) and (max-width: 1024px) {
+
+  .heroHeader {
+    font-size: 2.8rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.5rem;
+  }
 }
