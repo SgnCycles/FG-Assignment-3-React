@@ -7,16 +7,25 @@ import Home from './components/Home'
 function App() {
 
   const [page, setPage] = useState(null)
+  const [mobileMenu, setMobileMenu] = useState(null)
 
   const updatePage = (page) => {
     setPage(page === 'Home' ? null : page)
   }
 
+  const showMobileMenu = () => {
+    setMobileMenu(!mobileMenu)
+  }
+
+  const closeMobileMenu = () => {
+    setMobileMenu(null)
+  }
+
   return (
     <>
-      <Header updatePage={updatePage}/>
-      {!page && <Home page={page} updatePage={updatePage}/>}
-      {page && <Main page={page}/> }
+      <Header updatePage={updatePage} showMobileMenu={showMobileMenu} mobileMenu={mobileMenu} closeMobileMenu={closeMobileMenu}/>
+      {!page && <Home page={page} updatePage={updatePage} mobileMenu={mobileMenu} />}
+      {page && <Main page={page} mobileMenu={mobileMenu}/> }
       <Footer />
     </>
   )

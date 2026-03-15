@@ -14,7 +14,6 @@
 
 .hero.heroFood { 
   background-image: linear-gradient(rgba(15, 14, 14, 0.1), rgba(72, 9, 9, 0.4)), url('../../assets/images/zerowaste.webp');
-  /* background-image: url('../../assets/images/zerowaste.webp'); */
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +23,6 @@
 
 .hero.heroClothes {  
   background-image: linear-gradient(rgba(15, 14, 14, 0.1), rgba(72, 9, 9, 0.4)), url('../../assets/images/secondhand.jpg');
-  /* background-image: url('../../assets/images/secondhand.jpg'); */
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,4 +37,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+@media (min-width: 340px) and (max-width: 1024px) {
+
+  .hero {
+     min-height: 100dvh;
+  }
 }

@@ -19,3 +19,17 @@
 .footerDescription {
   font-size: 0.9rem;
 }
+
+@media (min-width: 340px) and (max-width: 1024px) {
+  .footerContentWrapper {
+    flex-direction: column;
+  }
+
+  .footerHeader {
+    margin-top: 0;
+  }
+
+  .footerContent {
+    margin-bottom: 0;
+  }
+}

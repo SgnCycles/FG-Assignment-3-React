@@ -1,10 +1,18 @@
 import styles from './navigation.module.css'
 import navMenu from '../../data/navigation.js'
+import Hamburger from '../Hamburger'
 
-const Navigation = ({updatePage}) => {
+const Navigation = ({updatePage, showMobileMenu, mobileMenu, closeMobileMenu}) => {
+
   return (
     <nav className={styles.navigation}>
-      {navMenu.map((item, index) => <span className={styles.navItem} key={index} onClick={() => updatePage(item.menuItem)}>{item.menuItem}</span>)}
+      <Hamburger showMobileMenu={showMobileMenu} mobileMenu={mobileMenu}/>
+      <ul className={`${styles.navMenuList} ${mobileMenu ? styles.active : ''}`}>
+        {navMenu.map((item, index) => <li className={styles.navItem} key={index} onClick={() => {
+          updatePage(item.menuItem)
+          closeMobileMenu()
+          }}>{item.menuItem}</li>)}
+      </ul>
     </nav>
   )
 }

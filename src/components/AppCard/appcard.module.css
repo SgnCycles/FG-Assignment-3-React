@@ -1,12 +1,12 @@
 .appCard {
+  position: relative;
+  height: 300px;
   display: flex;
   flex-direction: column;
   width: 60%;
-  position: relative;
   isolation: isolate;
   border-radius: 15px;
   padding: 2rem;
-  height: 300px;
 }
 
 .appCard::before {
@@ -59,7 +59,7 @@
 
 .appCardThumbnail {
   margin: 10px 0 10px 0;
-    position: absolute;
+  position: absolute;
   top: 10px;
   right: 20px;
   z-index: 1000;
@@ -98,4 +98,38 @@
 .appCardButton a {
   text-decoration: none;
   letter-spacing: 3px;
+}
+
+@media (min-width: 340px) and (max-width: 1024px) {
+  .appCard {
+    width: 90%;
+    height: auto;
+  }
+
+  .appCardThumbnail {
+    margin: 5px 0 5px 0;
+    top: 5px;
+    right: 10px;
+  }
+
+  .appCardThumbnail img {
+    display: block;
+    height: 90px;
+    width:auto;
+  }
+
+  .appCardIcon img {
+    z-index: 100;
+    position: relative;
+  }
+
+  .appCardIcon img {
+    left: -15px;
+  }
+
+  .appCardTitle {
+    font-size: 1.2rem;
+    left: -15px;
+    padding-top: 5px;
+  }
 }

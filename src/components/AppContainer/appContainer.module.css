@@ -10,7 +10,17 @@
 .appCardContainer {
   display: flex;
   flex-direction: column;
-  gap: 50px;
   justify-content: center;
   align-items: center;
+  gap: 50px;
+}
+
+@media (min-width: 340px) and (max-width: 1024px) {
+  .appContainer {
+    padding: 0 10px 30px 10px;
+  }
+
+  .appContainerHeader {
+    font-size: 2rem;
+  }
 }
