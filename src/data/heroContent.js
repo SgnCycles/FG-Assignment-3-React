@@ -7,12 +7,12 @@ const heroContent = [
   { 
     pageType: "Food",
     heroHeader: "Save Food, Save Money: Fighting Food Waste",
-    heroSubtitle: "One-third of all food produced globally goes to waste. These apps connect you with surplus food at incredible prices, turning potential waste into delicious meal",
+    heroSubtitle: "One-third of all food produced globally goes to waste. There are many options to save food at great prices, turning potential waste into delicious meal.",
   },
   {
     pageType: "Electronics",
-    heroHeader: "Refurbished Tech: Full Power, Half the Price",
-    heroSubtitle: "Electronic waste is the fastest-growing waste stream. Choosing refurbished tech reduces e-waste, saves rare earth minerals, and puts powerful devices in your hands for less.",
+    heroHeader: "Refurbished Tech: Full Power for Better Price",
+    heroSubtitle: "Electronic waste is the fastest-growing polluter. Choosing refurbished tech reduces e-waste, saves rare earth minerals, and puts powerful devices in your hands for less.",
   },
 ]
 

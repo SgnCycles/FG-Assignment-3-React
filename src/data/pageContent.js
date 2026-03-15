@@ -2,7 +2,7 @@ const pageContent = [
   { 
     pageType: "Clothes",
     pageHeader: "Why Buy Second-Hand Clothes?",
-    pageSubtitle: "Fast fashion has transformed how we consume clothing, but at a massive environmental cost. The good news? You can build a stylish wardrobe while making a positive impact. Pre-owned clothing is often higher quality than fast fashion, costs a fraction of a price, and helps keep perfectly good items out of landfills. ",
+    pageSubtitle: "Fast fashion has transformed how we consume clothing for worse, and it has a massive environmental and economical cost. The good news is that you can build a stylish and qualitative wardrobe while making a positive impact. Pre-owned clothing is often higher quality than fast fashion, costs way less, and helps keep perfectly good items out of landfills. ",
     facts: [
       {
         number: '92 million',
@@ -43,7 +43,7 @@ const pageContent = [
   {
     pageType: "Electronics",
     pageHeader: "Why Choose Refurbished?",
-    pageSubtitle: "Refurbished doesn't mean worn out, but professionally restored to like-new condition. Buying these items from a reputable companies means that these devices have been thoroughly tested, cleaned, and repaired if needed. You get the same functionality as new tech, with a warranty, but costs less than buying brand new. Moreover, you're preventing perfectly good electronics from becoming toxic waste and ending up in a landfill. Same goes with buying the item from someone that does not need the item anymore but it is still in a great working condition.",
+    pageSubtitle: "Refurbished doesn't mean worn out, but professionally restored often to like-new condition. Buying these items from a reputable companies means that these devices have been thoroughly tested, cleaned, and repaired if needed. You get the same functionality as new tech, with a warranty, but costs less than buying brand new. Moreover, you're preventing perfectly good electronics from becoming toxic waste and ending up in a landfill. Same goes with buying the item from someone that does not need the item anymore but it is still in a great working condition.",
     facts: [
       {
         number: '62 million tons',
