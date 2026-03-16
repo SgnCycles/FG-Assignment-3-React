@@ -7,7 +7,7 @@ import Home from './components/Home'
 function App() {
 
   const [page, setPage] = useState(null)
-  const [mobileMenu, setMobileMenu] = useState(null)
+  const [mobileMenu, setMobileMenu] = useState(false)
 
   const updatePage = (page) => {
     setPage(page === 'Home' ? null : page)
