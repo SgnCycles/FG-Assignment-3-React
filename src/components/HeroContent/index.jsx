@@ -5,13 +5,12 @@ import homepageContent from '../../data/homepageContent'
 const HeroContent = ({page}) => {
 
   const pageHero = heroContent.find(item => page === item.pageType)
-  const homepageHero = homepageContent
 
   return (
     <>
     {!page && <div className={styles.heroContent}>
-      <h1 className={styles.heroHeader}>{homepageHero.heroHeader}</h1>
-      <div className={styles.heroSubtitle}>{homepageHero.heroSubtitle}</div>
+      <h1 className={styles.heroHeader}>{homepageContent.heroHeader}</h1>
+      <div className={styles.heroSubtitle}>{homepageContent.heroSubtitle}</div>
       </div>}
     {page && <div className={`${styles.heroContent}`}>
       <h1 className={`${styles.heroHeader} ${styles[pageHero.pageType.toLowerCase()]}`}>{pageHero.heroHeader}</h1>

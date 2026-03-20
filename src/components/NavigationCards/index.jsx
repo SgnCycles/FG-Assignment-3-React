@@ -2,6 +2,7 @@ import styles from './navigationCards.module.css'
 import navCards from '../../data/navigationCards.js'
 
 const NavigationCards = ({updatePage}) => {
+
   return (
   <div className={styles.navigationCardSection}>
     <div className={styles.navigationCardWrapper}>

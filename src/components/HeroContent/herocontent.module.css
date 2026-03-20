@@ -1,5 +1,5 @@
 .heroContent {
-  height: 100%;
+ height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,10 +13,10 @@
 }
 
 .heroSubtitle {
+  width: 80%;
   font-size: 1.6rem;
   text-align: center;
   text-shadow: 1px 1px 1px white;
-  width: 80%;
 }
 
 .heroHeader.clothes, .heroHeader.food, .heroHeader.electronics {
@@ -31,7 +31,7 @@
   text-shadow: 1px 1px 1px black;
 }
 
-@media (min-width: 340px) and (max-width: 1024px) {
+@media (min-width: 340px) and (max-width: 767px) {
 
   .heroHeader {
     font-size: 2.8rem;

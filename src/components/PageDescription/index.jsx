@@ -1,31 +1,31 @@
 import styles from "./pagedescription.module.css";
 import homepageContent from '../../data/homepageContent'
 
-const PageDescription = ({page, pageObject}) => {
-const homepageObject = homepageContent
-  return (
+const PageDescription = ({page, pageCategoryType}) => {
+  
+return (
     <>
       {!page && (
         <div className={`${styles.pageDescription} ${styles.pageDescriptionHome}`}>
           <h2 className={`${styles.pageDescriptionHeader} ${styles.pageDescriptionHeaderHome}`}>
-            {homepageObject.pageHeader}
+            {homepageContent.pageHeader}
           </h2>
           <div className={`${styles.pageDescriptionSubtitle} ${styles.pageDescriptionSubtitleHome}`}>
-            {homepageObject.pageSubtitle}
+            {homepageContent.pageSubtitle}
           </div>
         </div>
       )}
       {page && (
         <div className={`${styles.pageDescription} ${styles.pageDescriptionOther}`}>
           <h2
-            className={`${styles.pageDescriptionHeader} ${styles[pageObject.pageType.toLowerCase()]}`}
+            className={`${styles.pageDescriptionHeader} ${styles[pageCategoryType.pageType.toLowerCase()]}`}
           >
-            {pageObject.pageHeader}
+            {pageCategoryType.pageHeader}
           </h2>
           <div
-            className={`${styles.pageDescriptionSubtitle} ${styles[pageObject.pageType]}`}
+            className={`${styles.pageDescriptionSubtitle} ${styles[pageCategoryType.pageType]}`}
           >
-            {pageObject.pageSubtitle}
+            {pageCategoryType.pageSubtitle}
           </div>
         </div>
       )}

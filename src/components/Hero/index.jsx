@@ -10,12 +10,13 @@ const Hero = ({page}) => {
       {page === 'Clothes' && <div className={`${styles.hero} ${styles.heroClothes}`}>
         <HeroContent page={page} />
       </div> }
-      {page === 'Food' &&<div className={`${styles.hero} ${styles.heroFood}`}>
+      {page === 'Food' && <div className={`${styles.hero} ${styles.heroFood}`}>
         <HeroContent page={page} />
       </div> }
-      {page === 'Electronics' &&<div className={`${styles.hero} ${styles.heroElectronics}`}>
+      {page === 'Electronics' && <div className={`${styles.hero} ${styles.heroElectronics}`}>
         <HeroContent page={page} />
-      </div> }</>
+      </div> }
+    </>
   )
 }
 
