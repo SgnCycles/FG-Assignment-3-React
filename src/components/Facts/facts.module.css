@@ -7,7 +7,7 @@
   margin-top: 30px;
 }
 
-.factWrapperDiv {
+.factWrapperSection {
   display: flex;
   justify-content: space-between;
   background-color: rgba(237, 150, 96, 0.1);
@@ -17,7 +17,7 @@
 }
 
 .factWrapper {
-  max-width: 300px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   padding: 0 0 20px 10px;
@@ -34,8 +34,9 @@
   letter-spacing: 2px;
 }
 
-@media (min-width: 340px) and (max-width: 1024px) {
-  .factWrapperDiv {
+@media (min-width: 340px) and (max-width: 767px) {
+
+  .factWrapperSection {
     flex-direction: column;
   }
 

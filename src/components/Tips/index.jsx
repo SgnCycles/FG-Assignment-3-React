@@ -1,15 +1,15 @@
 import styles from './tips.module.css'
 
-const Tips = ({page, pageObject}) => {
+const Tips = ({page, pageCategoryType}) => {
 
   return (
     <>
-      {page && page != 'Home' &&
+      {page &&
         <div className={styles.tipsSection}>
           <h2 className={styles.tipsSectionHeader}>Tips</h2> 
           <div className={styles.tipsWrapper}>
             <ul className={styles.tipsList}>
-              {pageObject.tips.map((item, index) => (
+              {pageCategoryType.tips.map((item, index) => (
                 <li key={index} className={styles.tipsListItem}>{item}</li>
               ))}
             </ul>

@@ -1,17 +1,16 @@
 import styles from './home.module.css'
-import homepageContent from '../../data/pageContent'
 import Hero from '../Hero'
 import PageDescription from '../PageDescription'
 import NavigationCards from '../NavigationCards'
+import homepageContent from "../../data/homepageContent";
+import pageContent from '../../data/pageContent'
 
 const Home = ({page, updatePage, mobileMenu}) => {
 
-const homepageObject = homepageContent;
-
   return (
-    <div className={`${styles.main} ${mobileMenu ? styles.blur : ''}`}>
+    <div className={`${styles.home} ${mobileMenu ? styles.blur : ''}`}>
       <Hero page={page}/>
-      <PageDescription page={page} pageObject={homepageObject}/>
+      <PageDescription page={page} pageContent={pageContent} homepageContent={homepageContent}/>
       <NavigationCards updatePage={updatePage}/>
     </div>
   )

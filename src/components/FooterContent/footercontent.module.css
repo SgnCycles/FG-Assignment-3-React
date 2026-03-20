@@ -20,7 +20,7 @@
   font-size: 0.9rem;
 }
 
-@media (min-width: 340px) and (max-width: 1024px) {
+@media (min-width: 340px) and (max-width: 767px) {
   .footerContentWrapper {
     flex-direction: column;
   }

@@ -1,10 +1,9 @@
 .appCard {
-  position: relative;
   height: 300px;
+  width: 60%;
+  position: relative;
   display: flex;
   flex-direction: column;
-  width: 60%;
-  isolation: isolate;
   border-radius: 15px;
   padding: 2rem;
 }
@@ -38,12 +37,12 @@
 }
 
 .appCardHeader::before {
+  height: 60px;
+  width: 100%;
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  height: 4rem;
-  width: 100%;
   background-color: rgba(237, 150, 96, 0.4);
   border-radius: 15px 15px 0 0;
   z-index: 0;
@@ -85,22 +84,51 @@
 .appCardSubtitle {
   flex-grow: 1;
   margin-top: 30px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   width: 80%;
+  line-height: 30px;
 }
 
 .appCardButton {
-  padding: 8px 4px;
-  width: 100%;
-  cursor: pointer;
-}
-
-.appCardButton a {
+  color: #2f4858;
+  /* display: inline-block; */
+  /* width: 30%; */
+  position: relative;
   text-decoration: none;
+  font-weight: 800;
+  font-size: 1.2rem;
   letter-spacing: 3px;
+  z-index: 0;
+  padding: 5px 24px 5px 0;
+  /* text-align: right; */
+  display: flex;
+  justify-content: end;
+
 }
 
-@media (min-width: 340px) and (max-width: 1024px) {
+.appCardButton::before {
+  content: '';
+  display: block;
+  width: 110px;
+  height: 125%;
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+  z-index: -1;
+  background-color: #b9a6ac;
+  transition: all 0.3s ease;
+}
+
+.appCardButton:hover {
+  opacity: 1;
+}
+
+.appCardButton:hover::before {
+  height: 25%;
+}
+
+@media (min-width: 340px) and (max-width: 767px) {
+
   .appCard {
     width: 90%;
     height: auto;
@@ -121,9 +149,6 @@
   .appCardIcon img {
     z-index: 100;
     position: relative;
-  }
-
-  .appCardIcon img {
     left: -15px;
   }
 
@@ -132,4 +157,9 @@
     left: -15px;
     padding-top: 5px;
   }
+
+  .appCardSubtitle {
+  margin-bottom: 20px;
+  }
+  
 }

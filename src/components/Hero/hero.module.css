@@ -9,7 +9,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .hero.heroFood { 
@@ -18,7 +17,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .hero.heroClothes {  
@@ -27,7 +25,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .hero.heroElectronics {  
@@ -36,12 +33,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
-@media (min-width: 340px) and (max-width: 1024px) {
-
+@media (min-width: 340px) and (max-width: 767px) {
   .hero {
-     min-height: 100dvh;
+     min-height: calc(100dvh - 70px);
+  }
+
+  .hero.heroHomepage, .hero.heroFood, .hero.heroClothes, .hero.heroElectronics {
+    height: 100%;
   }
 }

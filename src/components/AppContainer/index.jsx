@@ -4,7 +4,7 @@ import apps from "../../data/apps.js"
 
 const AppContainer = ({page}) => {
 
-  const appObject = apps.filter((item) => page === item.category);
+  const appObject = apps.filter(item => page === item.category);
 
   return (
     <div className={styles.appContainer}>
