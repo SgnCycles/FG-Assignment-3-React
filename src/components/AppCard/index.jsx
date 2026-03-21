@@ -15,7 +15,7 @@ const AppCard = ({app}) => {
         <img src={getThumbnailImageUrl(app.image)} height='100px' width='auto'/>
       </div>
       <div className={styles.appCardSubtitle}>{app.description}</div>
-      <a href={app.website} className={styles.appCardButton} target='_blank'>&#x2192; CHECK IT OUT</a>
+      <a href={app.website} className={styles.appCardButton} target='_blank'><span className={styles.arrow}>&#x2192;</span> CHECK IT OUT</a>
     </div>
   )
 }

@@ -5,6 +5,7 @@
 }
 
 @media (min-width: 340px) and (max-width: 1024px) {
+  
   .header {
     padding: 10px;
   }

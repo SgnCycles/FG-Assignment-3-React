@@ -58,7 +58,7 @@ const pageContent = [
         statement: 'worth of valuable metals end up in landfills from e-waste'
       },
     ],
-    tips: ['Consider if you really need the latest trendy phone module','Always check what is included—chargers, cables, original box', 'Look for warranty details—most reputable sellers offer at least 90 days', 'Check battery health for phones and laptops—aim for 80% or higher', 'Read the return policy before buying—test everything when it arrives', 'Consider last year model—often 40% cheaper with minimal difference',],
+    tips: ['Consider if you really need the latest trendy phone module','Always check what is included - chargers, cables, original box', 'Look for warranty details - most reputable sellers offer at least 90 days', 'Check battery health for phones and laptops - aim for 80% or higher', 'Read the return policy before buying - test everything when it arrives', 'Consider last year model - often 40% cheaper with minimal difference',],
   },
 ]
 

@@ -2,6 +2,7 @@ import styles from './footercontent.module.css'
 import footerContent from '../../data/footerContent.js'
 
 const FooterContent = () => {
+  
   return (
     <div className={styles.footerContentWrapper}>
       {footerContent.map((item, index) =>

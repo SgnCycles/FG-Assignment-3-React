@@ -9,8 +9,8 @@ const NavigationCards = ({updatePage}) => {
       {navCards.map((item, index) =>
        <div className={styles.navigationCard} key={index}>
         <h2 className={styles.navigationCardHeader}>{item.item}</h2>
-        <span className={styles.navigationCardSubtitle}>{item.subtitle}</span>
-        <span className={styles.navigationCardLink} onClick={()=> updatePage(item.item)}>Learn More &#8594;</span>
+        <p className={styles.navigationCardSubtitle}>{item.subtitle}</p>
+        <p className={styles.navigationCardLink} onClick={()=> updatePage(item.item)}>Learn More <span className={styles.navigationCardArrow}>&#8594;</span></p>
       </div>)}
     </div>
   </div>

@@ -9,9 +9,9 @@ const Facts = ({pageCategoryType}) => {
         {pageCategoryType.facts.map((item, index) => (
           <div key={index} className={styles.factWrapper}>
             <h3 className={styles.factDescriptionHeader}>{item.number}</h3>
-            <div className={styles.factDescriptionSubtitle}>
+            <p className={styles.factDescriptionSubtitle}>
               {item.statement}
-            </div>
+            </p>
           </div>
         ))}
       </div>
