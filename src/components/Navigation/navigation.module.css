@@ -84,7 +84,6 @@
   .navItem {
     width: 100%;
     text-align: center;
-    font-size: 2rem;
     color: white;
     letter-spacing: 10px;
     font-weight: 700;
@@ -95,15 +94,16 @@
     transform: translateX(0);
     gap: 6%;
   }
+}
 
-    .menuItem {
-    background-color: transparent;
+@media (min-width: 340px) and (max-width: 767px) {
+  .navItem {
+    font-size: 1.2rem;
   }
+}
 
-  .menuItem a {
-    background-color: transparent;
-    text-decoration: none;
-    font-size: 1.4rem;
-    padding-right: 15px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navItem {
+    font-size: 2rem;
   }
 }
