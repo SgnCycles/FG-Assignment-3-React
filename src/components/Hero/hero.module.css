@@ -3,39 +3,31 @@
   width: 100%;
 }
 
-.hero.heroHomepage {  
-  background-image: url('../../assets/images/hero.jpg');
+.hero.heroHomepage, .hero.heroFood, .hero.heroClothes, .hero.heroElectronics {
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero.heroHomepage {  
+  background-image: url('../../assets/images/hero.jpg');
 }
 
 .hero.heroFood { 
-  background-image: linear-gradient(rgba(15, 14, 14, 0.1), rgba(72, 9, 9, 0.4)), url('../../assets/images/zerowaste.webp');
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(rgba(15, 14, 14, 0.4), rgba(72, 9, 9, 0.4)), url('../../assets/images/zerowaste.webp');
 }
 
 .hero.heroClothes {  
-  background-image: linear-gradient(rgba(15, 14, 14, 0.1), rgba(72, 9, 9, 0.4)), url('../../assets/images/secondhand.jpg');
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(rgba(15, 14, 14, 0.4), rgba(72, 9, 9, 0.4)), url('../../assets/images/secondhand.jpg');
 }
 
 .hero.heroElectronics {  
-  background-image: url('../../assets/images/tech.jpg');
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(rgba(15, 14, 14, 0.4), rgba(72, 9, 9, 0.4)), url('../../assets/images/tech.jpg');
 }
 
 @media (min-width: 340px) and (max-width: 767px) {
+
   .hero {
      min-height: calc(100dvh - 70px);
   }

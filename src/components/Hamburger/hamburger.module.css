@@ -3,6 +3,7 @@
  }
 
 @media (min-width: 340px) and (max-width: 1024px) {
+  
   .hamburger {
     position: relative;
     display: flex;

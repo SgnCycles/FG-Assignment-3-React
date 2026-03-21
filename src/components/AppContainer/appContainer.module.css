@@ -16,6 +16,7 @@
 }
 
 @media (min-width: 340px) and (max-width: 1024px) {
+  
   .appContainer {
     padding: 0 10px 30px 10px;
   }

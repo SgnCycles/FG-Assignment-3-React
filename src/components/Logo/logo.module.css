@@ -3,4 +3,12 @@
   letter-spacing: 2px;
   display: flex;
   align-items: center;
+  padding-left: 20px;
+}
+
+@media (min-width: 340px) and (max-width: 1024px) {
+
+  .logo {
+    padding-left: 5px;
+  }
 }

@@ -2,6 +2,7 @@ import styles from './hero.module.css'
 import HeroContent from '../HeroContent'
 
 const Hero = ({page}) => {
+  
   return (
     <>
       {!page && <div className={`${styles.hero} ${styles.heroHomepage}`}>
